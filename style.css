@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+/* Main Container  */
+.main {
+   margin-top: 100px;
+   text-align: center;
+   width: 100%;
+}
+/* Creating a Single Letter colored block for transition */
+span {
+    display: inline-block;
+    font-size: 35px;
+    justify-self: center;
+    color: white;
+    margin-top: 50px;
+    width: 40px;
+    background-color:rgb(200, 29, 49);
+    border-radius: 50%;
+    margin-left: 10px;
+    transition-duration: 1.5s;
+    border: 1px black solid;
+}
+/* On hover effects */
+.firstrow span:hover {
+    transform: translateY(-30px);
+}
+.secondrow span:hover {
+    transform: rotate(180deg);
+}
+.thirdrow span:hover {
+    transform: scaleY(-1);
+}
